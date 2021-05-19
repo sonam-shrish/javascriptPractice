@@ -1,0 +1,34 @@
+Parameters vs Argument
+Direct function execution and indirect function execution   
+function.
+
+console.dir(obj);
+it takes in an object and spits out all the properties of that object
+
+function is an object
+
+STORING FUNCTION
+storing function in the right side of our equals sign is special in javascript comes with different implications.
+storing a function inside a variable does not hoist the function.
+
+expressions r something that yields some value
+
+FUNCTION DECLARATION VS FUNCTION EXPRESSION
+
+function declartion get hoisted at the top and initialized, thus u can use it in the lines before the declaration
+function expressions get hoisted but not initialized/defined. so u can't use them. function expression is better practice but not strict.
+
+6.8 ANONYMOUS FUNCTION
+anonymous functions often used as callback, do not have a name. and that is bad, because if u r running a huge script and that script is an optimized version, then that'll be hell.
+
+On methods on a primitive
+str = 'Hello world'
+str.toUpperCase(). what's STRANGE here? well, str is a string but it has a method, toUpperCase() and primitives don't have methods, objects do.
+
+On return
+The return stops the execution of a function and returns a value or maybe nothing
+
+11. ARROW FUNCTIONS
+
+what u can do is write single line function without using return
+if there is no argument add the parentheses, if there is just one argument, remove them

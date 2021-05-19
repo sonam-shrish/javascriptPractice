@@ -60,3 +60,26 @@
 // 	console.log(args.filter((a) => a === 3));
 // };
 // sprFunc(1, 2, 3);
+
+//DESTRUCTURING
+//it allows us to efficiently extract the elements of an array and properties of an object and store them in a variable
+
+//for arrays
+// let welc = ['hello', 'sonam'];
+// let [a, b] = ['hello', 'sonam'];
+// console.log(a, b);
+
+// const numbers = [1, 3, 4];
+// [num1, , num2] = numbers;
+// console.log(num1, num2);
+
+// let obj = { a: 1, b: 2, c: 3, d: 8 };
+// let { a, b, c } = { a: 1, b: 4, c: 4 };
+// console.log(a, b, c);
+
+//REFERENCE DATA TYPES
+// if you assign a variable with a variable storing a reference data type then, the object is not copied as in primitives but the pointer is copied
+let a = { p: 1, q: 2, r: 3 };
+let b = a;
+a.p = 8;
+console.log(b);
